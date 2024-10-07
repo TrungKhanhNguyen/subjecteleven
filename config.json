@@ -1,0 +1,24 @@
+{
+    "wallet": {
+        "addressKeyName": "walletname",
+        "addressRestoreMnemonic": "seedphrase",
+        "alloraHomeDir": "",
+        "gas": "auto",
+        "gasAdjustment": 1.5,
+        "nodeRpc": "https://rpc.ankr.com/allora_testnet/a11ac963e33b91923f4fdc68b8bdba675bd91440d32797411d8eb647df593474/",
+        "maxRetries": 4,
+        "delay": 5,
+        "submitTx": true
+    },
+    "worker": [
+        {
+            "topicId": 11,
+            "inferenceEntrypointName": "api-worker-reputer",
+            "loopSeconds": 5,
+            "parameters": {
+                "InferenceEndpoint": "http://inference:9011/inference/{Token}",
+                "Token": "R"
+            }
+        }
+    ]
+}
