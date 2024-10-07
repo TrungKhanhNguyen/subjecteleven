@@ -5,7 +5,7 @@
         "alloraHomeDir": "",
         "gas": "auto",
         "gasAdjustment": 1.5,
-        "nodeRpc": "https://rpc.ankr.com/allora_testnet/a11ac963e33b91923f4fdc68b8bdba675bd91440d32797411d8eb647df593474/",
+        "nodeRpc": "https://rpc.ankr.com/allora_testnet/cd2cbead4f6375b7c0d9ab6e3726114f792972b4610b2e4e25bb5538463d9705/",
         "maxRetries": 4,
         "delay": 5,
         "submitTx": true
