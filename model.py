@@ -12,7 +12,7 @@ import retrying
 forecast_price = {}
 
 binance_data_path = os.path.join(data_base_path, "market-coin/trump-data")
-MAX_DATA_SIZE = 3000  # Giới hạn số lượng dữ liệu tối đa khi lưu trữ
+MAX_DATA_SIZE = 1000  # Giới hạn số lượng dữ liệu tối đa khi lưu trữ
 
 
 @retrying.retry(wait_exponential_multiplier=1000, wait_exponential_max=10000, stop_max_attempt_number=5)
