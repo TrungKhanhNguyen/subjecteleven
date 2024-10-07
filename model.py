@@ -118,7 +118,7 @@ def train_model(token):
     y = df['close'].values  # Sử dụng giá đóng cửa làm mục tiêu
 
     # Khởi tạo mô hình Linear Regression
-    model = SVR(kernel='rbf')
+    model = SVR(kernel="rbf", C=100, gamma=0.1, epsilon=0.1)
     model.fit(X, y)  # Huấn luyện mô hình
 
     # Dự đoán giá tiếp theo
